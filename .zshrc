@@ -1,3 +1,4 @@
+fpath=(~/.zsh $fpath)
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/shm2004shm/.oh-my-zsh
 
@@ -7,6 +8,16 @@ export ZSH=/Users/shm2004shm/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="agnoster"
 
+alias la='ls -lah' #my 'la'
+alias psd='pushd'
+alias pd='popd'
+alias wireshark='/usr/local/Cellar/wireshark/1.12.8/bin/wireshark-qt'
+# echo "WIRESHARKPARTIiiII"
+
+function rm() {
+    lolcat ~/.lol.txt
+    echo "I think you meant trash"
+}
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
