@@ -1,4 +1,3 @@
-fpath=(~/.zsh $fpath)
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/shm2004shm/.oh-my-zsh
 
@@ -6,18 +5,10 @@ export ZSH=/Users/shm2004shm/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
+#ZSH_THEME="robbyrussell"
 ZSH_THEME="agnoster"
+#ZSH_THEME="sorin"
 
-alias la='ls -lah' #my 'la'
-alias psd='pushd'
-alias pd='popd'
-alias wireshark='/usr/local/Cellar/wireshark/1.12.8/bin/wireshark-qt'
-# echo "WIRESHARKPARTIiiII"
-
-function rm() {
-    lolcat ~/.lol.txt
-    echo "I think you meant trash"
-}
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -60,7 +51,7 @@ function rm() {
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+#######plugins=(git)
 
 # User configuration
 
