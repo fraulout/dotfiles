@@ -84,3 +84,19 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#aliases
+alias la='ls -lah' #my 'la'
+alias cat='/usr/local/bin/lolcat'
+alias wireshark='/usr/local/Cellar/wireshark/1.12.8/bin/wireshark-qt'
+#alias vim='/opt/local/bin/vim'    #macports vim
+alias psd='pushd'  #easier pushd
+alias pd='popd'        #easier popd
+#alias trash='rmtrash'
+#unalias sl
+
+#training wheels
+function rm() {
+    cat ~/lol.txt
+        echo "I think you meant trash"
+        }
+
