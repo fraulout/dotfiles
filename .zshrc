@@ -87,7 +87,7 @@ source $ZSH/oh-my-zsh.sh
 #aliases
 alias la='ls -lah' #my 'la'
 alias cat='/usr/local/bin/lolcat'
-alias wireshark='/usr/local/Cellar/wireshark/1.12.8/bin/wireshark-qt'
+#alias wireshark='/usr/local/Cellar/wireshark/2.0.1/bin/wireshark'
 #alias vim='/opt/local/bin/vim'    #macports vim
 alias psd='pushd'  #easier pushd
 alias pd='popd'        #easier popd
@@ -100,3 +100,7 @@ function rm() {
         echo "I think you meant trash"
         }
 
+ # A bash function to display a growl notification using iTerm's magic
+ # escape sequence. This version will work under screen.
+
+alias growl='growlnotify'
