@@ -6,8 +6,9 @@ export ZSH=/Users/shm2004shm/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="agnoster"
+#ZSH_THEME="agnoster"
 #ZSH_THEME="sorin"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -88,7 +89,7 @@ source $ZSH/oh-my-zsh.sh
 alias la='ls -lah' #my 'la'
 alias cat='/usr/local/bin/lolcat'
 #alias wireshark='/usr/local/Cellar/wireshark/2.0.1/bin/wireshark'
-#alias vim='/opt/local/bin/vim'    #macports vim
+#alias vim='/usr/local/Cellar/vim/7.4.1830/bin/vim'    #macports vim
 alias psd='pushd'  #easier pushd
 alias pd='popd'        #easier popd
 #alias trash='rmtrash'
