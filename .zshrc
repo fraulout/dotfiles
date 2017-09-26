@@ -9,6 +9,7 @@ export ZSH=/Users/shm2004shm/.oh-my-zsh
 #ZSH_THEME="sorin"
 #ZSH_THEME="agnoster"
 ZSH_THEME="powerlevel9k/powerlevel9k"
+#ZSH_THEME="arrow"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -92,16 +93,22 @@ alias cat='/usr/local/bin/lolcat'
 #alias vim='/usr/local/Cellar/vim/7.4.1830/bin/vim'    #macports vim
 alias psd='pushd'  #easier pushd
 alias pd='popd'        #easier popd
+eval $(thefuck --alias) #link for fuck
+
 #alias trash='rmtrash'
 #unalias sl
 
 #training wheels
-function rm() {
-    cat ~/lol.txt
-        echo "I think you meant trash"
-        }
+#function rm() {
+#    cat ~/lol.txt
+#        echo "I think you meant trash"
+#        }
 
  # A bash function to display a growl notification using iTerm's magic
  # escape sequence. This version will work under screen.
 
 alias growl='growlnotify'
+export HOMEBREW_NO_ANALYTICS=1
+export HOMEBREW_NO_AUTO_UPDATE=1
+export HOMEBREW_NO_GITHUB_API=1
+export HOMEBREW_NO_INSECURE_REDIRECT=1
